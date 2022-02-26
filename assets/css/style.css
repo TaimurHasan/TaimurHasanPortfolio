@@ -1,6 +1,7 @@
 :root {
     --primary-color: #557a95;
     --secondary-color: #282828;
+    --tertiary-color: #174d74;
 }
 
 * {
@@ -21,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: var(--primary-color);
 }
 
@@ -45,6 +47,7 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     list-style: none;
     font-size: 28px;
 }
@@ -55,4 +58,40 @@ header nav ul {
     background-size: cover;
     background-position: 100% 80%;
     height: 500px;
+}
+
+
+/*ABOUT ME SECTION STYLING*/
+.about {
+    margin: 20px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.aboutme {
+    font-size: 42px;
+    width: 20%;
+    padding-right: 30px;
+    text-align: right;
+    color: var(--primary-color);
+    border-right: solid 5px var(--primary-color);
+    height: 80%;
+}
+
+.aboutmedescription {
+    width: 70%;
+    height: 80%;
+    margin: 0 40px;
+    padding: 30px 40px;
+    color: var(--tertiary-color);
+    font-size: 18px;
+    text-align:start;
+}
+
+.aboutmedescription p {
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
