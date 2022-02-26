@@ -1,9 +1,12 @@
 :root {
     --primary-color: #557a95;
+    --secondary-color: #282828;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /*STYLING FOR ALL BODY ELEMENTS*/
@@ -14,7 +17,7 @@ body {
 
 /*HEADER SECTION WITH NAVIGATION*/
 header {
-    padding: 0px 0px;
+    padding: 25px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,10 +25,11 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
-    background-color: black;
-    color: white;
+    font-size: 42px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 20px 20px 20px 120px;
+    font-weight: normal;
 }
 
 header nav {
@@ -35,7 +39,7 @@ header nav {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
 }
 header nav ul {
     display: flex;
@@ -43,4 +47,12 @@ header nav ul {
     align-items: center;
     list-style: none;
     font-size: 28px;
+}
+
+/*HERO SECTION STYLING*/
+.hero {
+    background-image: url("../images/hero-background.jpg");
+    background-size: cover;
+    background-position: 100% 80%;
+    height: 500px;
 }
