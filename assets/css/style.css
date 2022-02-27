@@ -116,6 +116,7 @@ header nav ul {
     font-size: 18px;
     text-align:start;
     flex: 2 70%;
+    overflow: auto;
 }
 
 .aboutmedescription p {
@@ -133,9 +134,54 @@ header nav ul {
 }
 
 .project-library {
-    width: 70%;
+    height: 80%;
     margin: 0 40px;
-    padding: 30px 40px;
+    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex: 1 70%;
+    flex-wrap: wrap;
 }
+
+.project-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: solid 4px var(--primary-color);
+    opacity: 0.75;
+}
+
+.project-container:hover {
+    opacity: 1;
+}
+
+.run-buddy {
+    background-image: url(../images/500-hero-mock-up.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.horiseon {
+    background-image: url(../images/01-html-css-git-homework-demo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.project-title {
+    background-color: var(--primary-color);
+    padding: 20px;
+    flex: 0 40%;
+    font-size: 14px;
+}
+
+.normal-project {
+    flex: 0 48%;
+}
+
+.main-project {
+    flex: 2 100%;
+    height: 60%;
+}
+
+
+
