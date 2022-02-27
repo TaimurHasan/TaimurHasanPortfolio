@@ -321,3 +321,86 @@ header nav ul {
     }
 
 }
+
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-size: 32px;
+        color: aliceblue;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        padding: 5px;
+    }
+
+    header nav ul li a{
+        font-size: 28px;
+    }
+    
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro img {
+        height: 10%;
+        width: 40%;
+
+    }
+
+    .intro h2 {
+        font-size: 24px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .aboutmedescription {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 25px;
+        font-size: 16px;
+    }
+
+    .project-library {
+        margin: 10px;
+    }
+
+    .project-library a {
+        width: 100%;
+    }
+
+    .project-container {
+        flex: 1 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+    }
+    
+    .project-title {
+        height: 100%;
+        font-size: 11px;
+        text-align: center;
+        width: 60%;
+        border-radius: 15px;
+    }
+
+    .main-project {
+        height: 200px;
+    }
+
+    .normal-project {
+        height: 150px;
+    }
+
+    .contact ul li {
+        font-size: 16px;
+    }
+}
