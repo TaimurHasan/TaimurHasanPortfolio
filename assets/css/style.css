@@ -91,31 +91,31 @@ header nav ul {
 .content {
     margin: 20px 55px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     height: 400px;
 }
 
 /*ADDING CSS FOR ALL SECTION TITLES*/
+
 .section-title {
-    font-size: 42px;
-    width: 20%;
-    padding-right: 35px;
+    font-size: 32px;
+    padding: 0 35px;
     text-align: right;
     color: var(--tertiary-color);
-    border-right: solid 5px var(--tertiary-color);
     height: 80%;
+    border-right: solid 5px var(--tertiary-color);
+    flex: 0 20%;
 }
 
 .aboutmedescription {
-    width: 70%;
     height: 80%;
     margin: 0 40px;
     padding: 10px 40px;
     color: var(--tertiary-color);
     font-size: 18px;
     text-align:start;
+    flex: 2 70%;
 }
 
 .aboutmedescription p {
@@ -124,12 +124,18 @@ header nav ul {
 }
 
 /*PROJECT LIBRARY STYLING*/
+.projects {
+    margin: 20px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
 .project-library {
     width: 70%;
     margin: 0 40px;
     padding: 30px 40px;
-}
-
-.extra-space {
-    height: 400px;
+    display: flex;
+    justify-content: space-around;
 }
