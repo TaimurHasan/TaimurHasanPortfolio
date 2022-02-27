@@ -98,14 +98,16 @@ header nav ul {
 
 /*MAIN BODY SECTIONS STYLING*/
 .content {
-    margin: 20px 55px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .height1 {
     height: 400px;
+    width: 100%;
 }
 
 .height2 {
