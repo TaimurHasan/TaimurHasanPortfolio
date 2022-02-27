@@ -245,12 +245,23 @@ header nav ul {
     header {
         justify-content: center;
         padding-bottom: 0;
+        padding-top: 0;
         width: 100%;
+    }
+
+    header h1 {
+        width: 100%;
+        font-size: 52px;
+        text-align: center;
+        padding: 10px 10px;
     }
 
     header nav {
         width: 100%;
+        justify-content: space-around;
+        padding: 20px 50px;
     }
+
     .hero {
         width: 100%;
         height: 100%;
@@ -264,18 +275,13 @@ header nav ul {
     }
 
     header nav a {
-        font-size: 24px;
-    }
-
-    header h1 {
-        text-align: center;
-        font-size: 24px;
-        padding: 10px;
+        font-size: 32px;
     }
 
     .content {
         padding: 0;
         flex-direction: column;
+        height: 100%;
     }
 
     .section-title {
@@ -284,12 +290,34 @@ header nav ul {
         padding: 0;
         margin: 0;
     }
-    
-    .height2 {
+
+    .aboutmedescription {
+        flex: 0 90%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
         height: 100%;
     }
 
-    .aboutmedescription {
-        flex: 0 100%;
+    .project-container {
+        height: 200px;
     }
+
+    .main-project {
+        height: 400px;
+    }
+
+    .normal-project {
+        flex: 0 48%;
+    }
+
+    .contact ul {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .contact ul li {
+        padding: 5px;
+    }
+
 }
