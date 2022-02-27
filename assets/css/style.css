@@ -42,7 +42,15 @@ header nav {
 header a {
     text-decoration: none;
     color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
 }
+
+header a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
 header nav ul {
     display: flex;
     justify-content: space-between;
@@ -93,9 +101,19 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.height1 {
     height: 400px;
 }
 
+.height2 {
+    height: 800px;
+}
+
+.height3 {
+    height: 200px;
+}
 /*ADDING CSS FOR ALL SECTION TITLES*/
 
 .section-title {
@@ -125,13 +143,6 @@ header nav ul {
 }
 
 /*PROJECT LIBRARY STYLING*/
-.projects {
-    margin: 20px 55px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 800px;
-}
 
 .project-library {
     height: 80%;
@@ -141,18 +152,21 @@ header nav ul {
     justify-content: space-between;
     flex: 1 70%;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .project-container {
+    margin: 5px;
     display: flex;
     justify-content: left;
     align-items: center;
     border: solid 4px var(--primary-color);
-    opacity: 0.75;
+    opacity: 0.9;
 }
 
 .project-container:hover {
     opacity: 1;
+    border: solid 5px var(--tertiary-color);
 }
 
 .run-buddy {
@@ -167,6 +181,12 @@ header nav ul {
     background-size: cover;
 }
 
+.watchbox {
+    background-image: url(../images/Screenshot\ 2022-02-26\ 210521.png);
+    background-position: top;
+    background-size: cover;
+}
+
 .project-title {
     background-color: var(--primary-color);
     padding: 20px;
@@ -175,7 +195,8 @@ header nav ul {
 }
 
 .normal-project {
-    flex: 0 48%;
+    flex: 1 49%;
+    height: 35%;
 }
 
 .main-project {
@@ -183,5 +204,29 @@ header nav ul {
     height: 60%;
 }
 
+.contact {
+    flex: 2 70%;
+}
 
+.contact ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 80px;
+}
 
+.contact ul li {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+.contact ul li a:hover{
+    border-bottom: solid 2px var(--tertiary-color);
+}
