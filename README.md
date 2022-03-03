@@ -16,12 +16,12 @@ The application was built using HTML to structure the web page and its various s
 - HTML
 - CSS
 
-**User Story**
+**User Story:** <br />
 AS AN employer <br />
 I WANT to view a potential employee's deployed portfolio of work samples<br />
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position<br />
 
-**Acceptance Criteria**
+**Acceptance Criteria:** <br />
 GIVEN I need to sample a potential employee's previous work<br />
 WHEN I load their portfolio<br />
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them<br />
@@ -37,9 +37,9 @@ WHEN I resize the page or view the site on various screens and devices<br />
 THEN I am presented with a responsive layout that adapts to my viewport<br />
 
 ## Application Link and Screenshot
-**Link to Final Website**
+**Link to Final Website:**
 
 [Taimur Hasan - Professional Portfolio](https://taimurhasan.github.io/TaimurHasanPortfolio/)
 
-**Screenshot of Final Website**
+**Screenshot of Final Website:**
 ![Website Screenshot](./assets/images/screencapture-taimurhasan-github-io-TaimurHasanPortfolio-2022-03-03-14_41_43.png)
