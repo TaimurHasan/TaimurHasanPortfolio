@@ -188,13 +188,13 @@ header nav ul {
 
 
 .run-buddy {
-    background-image: url(../images/500-hero-mock-up.jpg);
+    background-image: url(../images/weatherdashboard.png);
     background-position: center;
     background-size: cover;
 }
 
-.horiseon {
-    background-image: url(../images/01-html-css-git-homework-demo.png);
+.moat {
+    background-image: url(../images/moat.png);
     background-position: center;
     background-size: cover;
 }
